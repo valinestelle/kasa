@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './components/Navbar.js';
+import './App.css';
 
 function App() {
   return (
-    <h1>title</h1>
+    <Navbar />
   )
 }
 
