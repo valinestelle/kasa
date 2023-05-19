@@ -1,9 +1,19 @@
 import React from 'react'
 import './Appartement.css'
 
+
 function Appartement() {
   return (
-    <div className='grid'>hello</div>
+    <section className='grid'>
+        <div className='cards'>
+           <article className='card'>title</article>
+           <article className='card'>title</article>
+           <article className='card'>title</article>
+           <article className='card'>title</article>
+           <article className='card'>title</article>
+           <article className='card'>title</article>
+        </div>
+    </section>
   )
 }
 

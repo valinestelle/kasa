@@ -1,3 +1,8 @@
+:root {
+    --main-color: #ff6060;
+    --light-grey: #f6f6f6;
+}
+
 body {
     display: flex;
     justify-content: center;

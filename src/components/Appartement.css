@@ -1,5 +1,12 @@
 .grid {
-    background-color: #f6f6f6;
+    background-color: var(--light-grey);
     border-radius: 25px;
     height: 829px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
