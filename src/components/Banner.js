@@ -4,7 +4,7 @@ import './Banner.css'
 function Banner() {
   return (
     <div className='banner'>
-        <img src='IMGbanner.png' alt='paysage'/>
+        <p>Chez vous, partous et ailleurs</p>
     </div>
   )
 }

@@ -1,5 +1,23 @@
-.banner {
+.banner  {
+    position: relative;
     width: 1240px;
     height: 223px;
     border-radius: 25px;
+    background-image: url(./Img/IMGbanner.png);
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 48px;
+    font-weight: 500;
+    z-index: 1;
 }
+
+.banner::before {
+    content: '';
+    position: absolute;
+    border-radius: 25px; 
+    inset: 0;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+}
+
