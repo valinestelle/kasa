@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 0;
-   
+    padding: 2em 0 4em 0;
+    width: 1240px;  
+    height: 68px;
 }
 .navbar img {
     width: 210.32px;
