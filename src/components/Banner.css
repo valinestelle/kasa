@@ -5,9 +5,11 @@
     margin-bottom: 35px;
     border-radius: 25px;
     background-image: url(./Img/IMGbanner.png);
+    background-size: cover;
     color: white;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 48px;
     font-weight: 500;
     z-index: 1;
@@ -22,3 +24,16 @@
     z-index: -1;
 }
 
+@media screen and (width <= 767px) {
+    .banner {
+        font-size: 24px;
+        height: 111px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    .banner p { 
+        width: 217px;
+    }
+}

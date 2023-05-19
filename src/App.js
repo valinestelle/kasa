@@ -14,8 +14,7 @@ function App() {
     <Appartement />
     </main>
     <Footer />
-    </div>
-    
+    </div>   
   )
 }
 

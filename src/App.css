@@ -14,3 +14,10 @@ main {
    max-width: 1240px;
 }
 
+@media screen and (width <= 767px) {
+    main {
+        margin: 0;
+    
+    }
+}
+

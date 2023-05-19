@@ -22,3 +22,16 @@
     gap: 30px;
     line-height: 34.22px;
 }
+
+@media screen and (width <= 767px) {
+    .navbar{
+        padding: 10px 0 10px 0;
+    }
+    .liens {
+        font-size: 12px;
+    }
+    .navbar img {
+        width: 145px;
+        height: 47px;
+    }
+}

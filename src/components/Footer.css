@@ -15,3 +15,9 @@
     color: white;
     font-size: 24px;
 }
+
+@media screen and (width <= 767px) {
+    .footer__text {
+        font-size: 12px;
+    }
+}
