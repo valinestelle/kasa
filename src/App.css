@@ -5,11 +5,12 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 80px;
-    padding: 0;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+
+main {
+   margin: auto; 
+   max-width: 1240px;
+}
+
