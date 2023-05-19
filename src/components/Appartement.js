@@ -6,12 +6,24 @@ function Appartement() {
   return (
     <section className='grid'>
         <div className='cards'>
-           <article className='card'>title</article>
-           <article className='card'>title</article>
-           <article className='card'>title</article>
-           <article className='card'>title</article>
-           <article className='card'>title</article>
-           <article className='card'>title</article>
+          <article className='card'>
+            <div className='card__subtitle'>Titre de la location</div>
+          </article>
+          <article className='card'>
+            <div className='card__subtitle'>Titre de la location</div>
+          </article>
+          <article className='card'>
+            <div className='card__subtitle'>Titre de la location</div>
+          </article>
+          <article className='card'>
+            <div className='card__subtitle'>Titre de la location</div>
+          </article>
+          <article className='card'>
+            <div className='card__subtitle'>Titre de la location</div>
+          </article>
+          <article className='card'>
+            <div className='card__subtitle'>Titre de la location</div>
+          </article>
         </div>
     </section>
   )
