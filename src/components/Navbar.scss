@@ -5,11 +5,10 @@
     padding: 2em 0 4em 0;
     width: 100%;  
     height: 68px;
-}
-
-.navbar img {
-    width: 210.32px;
-    height: 68px;
+    & img {
+            width: 210.32px;
+            height: 68px;
+        }
 }
 
 .liens {
@@ -20,16 +19,21 @@
     font-weight: 500;
     gap: 30px;
     line-height: 34.22px;
+    & a {
+            text-decoration: none;
+            color: var(--main-color);
+        
+         &:hover {
+            text-decoration: underline;
+         }
+            &:hover {
+                 text-decoration: underline;
+                 }
+                 &:active {
+                     text-decoration: underline;
+                     }
+    }
 }
-.liens a {
-    text-decoration: none;
-    color: var(--main-color);
-}
-
-.liens a:hover {
-    text-decoration: underline;
-}
-
 
 @media screen and (width <= 767px) {
     .navbar{

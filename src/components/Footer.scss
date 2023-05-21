@@ -5,15 +5,13 @@
     display: grid;
     place-items: center;
     text-align: center;
-}
-
- .footer__logo {
-     padding-top: 40px;
- }
-
-.footer__text {
-    color: white;
-    font-size: 24px;
+    &__logo {
+            padding-top: 40px;
+        }
+        &__text {
+            color: white;
+            font-size: 24px;
+            }
 }
 
 @media screen and (width <= 767px) {

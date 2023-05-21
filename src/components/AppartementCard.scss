@@ -15,16 +15,14 @@
     align-items: flex-end;
     font-size: 18px;
     font-weight: 500;
-}
-
-.card__subtitle {
-    width: 50%;
-    padding: 20px;
-}
-
-.card a {
-    text-decoration: none;
-    color: white;
+    &__subtitle {
+        width: 50%;
+        padding: 20px;
+        }
+        & a {
+            text-decoration: none;
+            color: white;
+        }
 }
 
 @media screen and (width <= 767px) {

@@ -1,5 +1,5 @@
 import React from 'react'
-import './AppartementCard.css'
+import './AppartementCard.scss'
 import {Link} from 'react-router-dom'
 
 function AppartementCard() {
