@@ -16,12 +16,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--main-color);
     font-size: 24px;
     font-weight: 500;
     gap: 30px;
     line-height: 34.22px;
 }
+.liens a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.liens a:hover {
+    text-decoration: underline;
+}
+
 
 @media screen and (width <= 767px) {
     .navbar{

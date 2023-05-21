@@ -1,29 +1,18 @@
 import React from 'react'
 import './Appartement.css'
+import AppartementCard from './AppartementCard.js'
 
 
 function Appartement() {
   return (
     <section className='grid'>
         <div className='cards'>
-          <article className='card'>
-            <div className='card__subtitle'>Titre de la location</div>
-          </article>
-          <article className='card'>
-            <div className='card__subtitle'>Titre de la location</div>
-          </article>
-          <article className='card'>
-            <div className='card__subtitle'>Titre de la location</div>
-          </article>
-          <article className='card'>
-            <div className='card__subtitle'>Titre de la location</div>
-          </article>
-          <article className='card'>
-            <div className='card__subtitle'>Titre de la location</div>
-          </article>
-          <article className='card'>
-            <div className='card__subtitle'>Titre de la location</div>
-          </article>
+        <AppartementCard />
+        <AppartementCard />
+        <AppartementCard />
+        <AppartementCard />
+        <AppartementCard />
+        <AppartementCard />
         </div>
     </section>
   )
