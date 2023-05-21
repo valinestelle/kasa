@@ -1,3 +1,5 @@
+@use '../scss/Variables.scss' as *;
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -21,17 +23,14 @@
     line-height: 34.22px;
     & a {
             text-decoration: none;
-            color: var(--main-color);
+            color: $main-color;
         
          &:hover {
             text-decoration: underline;
          }
-            &:hover {
-                 text-decoration: underline;
-                 }
-                 &:active {
-                     text-decoration: underline;
-                     }
+            &:active {
+                text-decoration: underline;
+            }
     }
 }
 
